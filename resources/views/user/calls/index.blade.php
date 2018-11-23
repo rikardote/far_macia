@@ -136,11 +136,11 @@
         <div id="printarea" style="line-height:1.25">
             <span style="font-size:27px; font-weight: bold">{{ $company_name }}</span><br>
             <span style="font-size:25px">{{ session()->get('department_name') }}</span><br>
-            <span style="font-size:20px">Your Priority Number</span><br>
+            <span style="font-size:20px">Su número es</span><br>
             <span><h3 style="font-size:70px;font-weight:bold;margin:0;line-height:1.5">{{ session()->get('number') }}</h3></span>
-            <span style="font-size:20px">Please wait for your turn</span><br>
-            <!-- <span style="font-size:20px">Total customer(s) waiting: {{ session()->get('total')-1 }}</span><br> -->
-            <span>{{ \Carbon\Carbon::now()->format('d-m-Y') }}</span> | <span>{{ \Carbon\Carbon::now()->format('h:i:s A') }}</span>
+            <span style="font-size:20px">Por favor espere su turno</span><br>
+            <span style="font-size:20px">Total paciente(s) en espera: {{ session()->get('total')-1 }}</span><br>
+            <span>{{ \Carbon\Carbon::now()->format('d-m-Y') }}</span> - <span>{{ \Carbon\Carbon::now()->format('h:i:s A') }}</span>
         </div>
         <script>
             window.onload = function(){window.print();}

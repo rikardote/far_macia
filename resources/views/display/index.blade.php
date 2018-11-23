@@ -39,9 +39,14 @@
             </div>
         </div>
     </div>
-    <!-- <div class="row" style="margin-bottom:0;font-size:{{ $settings->size }}px;color:{{ $settings->color }}">
-        <marquee>{{ $settings->notification }}</marquee>
-    </div> -->
+    <h1>DE MOMENTO NO HAY ESTOS MEDICAMENTOS:</h1>
+     <div class="row" style="margin-bottom:0;font-size:56px;color:#000">
+        
+
+        <marquee>ALPRAZOLAM, RIVOTRIL, ACIDO FOLICO, ENALAPRIL</marquee>
+
+                    
+    </div> 
 @endsection
 
 @section('script')

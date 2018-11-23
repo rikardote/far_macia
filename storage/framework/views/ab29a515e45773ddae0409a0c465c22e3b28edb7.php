@@ -37,9 +37,14 @@
             </div>
         </div>
     </div>
-    <!-- <div class="row" style="margin-bottom:0;font-size:<?php echo e($settings->size); ?>px;color:<?php echo e($settings->color); ?>">
-        <marquee><?php echo e($settings->notification); ?></marquee>
-    </div> -->
+    <h1>DE MOMENTO NO HAY ESTOS MEDICAMENTOS:</h1>
+     <div class="row" style="margin-bottom:0;font-size:56px;color:#000">
+        
+
+        <marquee>ALPRAZOLAM, RIVOTRIL, ACIDO FOLICO, ENALAPRIL</marquee>
+
+                    
+    </div> 
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('script'); ?>

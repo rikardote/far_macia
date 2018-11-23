@@ -42,10 +42,6 @@
             <div class="wrapper" >
                 <section id="content">
                     @yield('content')
-                    <h1>DE MOMENTO NO HAY ESTOS MEDICAMENTOS:</h1>
-                    <h2 class='marquee'>ALPRAZOLAM, RIVOTRIL, ACIDO FOLICO, ENALAPRIL</h2>
-
-                    
                 </section>
             </div>
         </div>
@@ -63,16 +59,7 @@
         <script type="text/javascript" src="{{ asset('assets/js/materialize.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('assets/js/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('assets/js/plugins.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('assets/js/marquee/jquery.marquee.min.js') }}"></script>
-        <script type="text/javascript">
-
-                $(function(){
-                    $('.marquee').marquee({
-                        duration: 13000
-                    });        
-                });
-
-        </script>
+       
         @yield('script')
         @include('common.messages')
     </body>
